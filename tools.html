@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@zoey.dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Optional: Add custom styles for the form and cards */
+        .form-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .form-container input[type=text] {
+            padding: 10px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        .form-container button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+        .profile-link {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .tool-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            color: black;
+            padding: 1rem;
+            margin: 1rem;
+            width: calc(25% - 2rem);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+        }
+        .tool-card h3 {
+            margin-top: 0;
+        }
+        .tool-card p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .tool-card .button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .tool-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm Zoey! 👋🏼</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://youtube.com/@ZoeyTheChicken">YouTube</a></li>
+                <li><a href="https://discord.com/users/810156066657796106">Discord</a></li>
+                <li><a href="https://github.com/@ZoeyTheChicken">GitHub</a></li>
+                <li><a href="tools.html">Tools</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="tools_list">
+            <!-- Project Cards for Each Tool -->
+            <div class="tool-card">
+                <h3>Discord Profile Link Generator</h3>
+                <p>Ever wanted to just click a link and... your discord profile just pops up?</p>
+                <a href="discord_profile_link_generator.html" class="button">Use Tool</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>&copy; 2024 ZoeyDev</h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
